@@ -1,0 +1,10 @@
+name: "test"
+docfile: "test.md"
+description: "test"
+args:
+  test:
+    type: "string"
+    description: "test"
+    required: true
+    default: "test"
+classification: fast
