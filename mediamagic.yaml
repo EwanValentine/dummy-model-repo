@@ -1,5 +1,5 @@
 name: "test"
-docfile: "test.md"
+docfile: "docs.md"
 description: "test"
 args:
   test:
