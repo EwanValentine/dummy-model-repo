@@ -8,3 +8,8 @@ args:
     required: true
     default: "test"
 classification: fast
+examples:
+  - title: "Usage One"
+    description: "Does a thing"
+    args:
+      a: "a"
