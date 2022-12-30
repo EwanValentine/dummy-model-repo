@@ -1,0 +1,30 @@
+id: "bddb16f4-bd92-4093-b328-07233f241a30"
+name: "AnimeX"
+docfile: "docs.md"
+container: "ubuntu" # Eventually we should just infer this from a given Docker image if exists, and make this field optional
+description: "test"
+machine_type: "container3"
+command: "127.0.0.1:8020/gray {args} --form output_path=output"
+args:
+  input_image_file:
+    type: "type"
+    format: "--form input_image_file=@:value"
+    optional: false
+    example": ""
+classification: "fast"
+black_icon: "https://cdn.mediamagic.dev/media/068ac6aa-491b-11ed-8fd6-fe5332939342.png"
+white_icon: "https://cdn.mediamagic.dev/media/10cedc6f-491b-11ed-8fd6-fe5332939342.png"
+color_icon: "https://cdn.mediamagic.dev/media/19b8ec56-491b-11ed-8fd6-fe5332939342.png"
+repository: "https://github.com/pingponglabs-backend/mm-models"
+examples:
+  - title: "Usage One"
+    description: "Does a thing"
+    args:
+      image_a:
+        type: "file"
+        value: "a.png"
+      image_b:
+        type: "file"
+        value: "b.png"
+    outputs:
+      - "output_a.png"

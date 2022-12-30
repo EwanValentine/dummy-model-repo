@@ -1,0 +1,27 @@
+{
+  "args": {
+    "input_image_file": {
+      "example": "",
+      "format": "--form input_image_file=@:value",
+      "optional": false,
+      "type": "file",
+      "value": null
+    }
+  },
+  "classification": "FAST",
+  "command": "127.0.0.1:8020/gray {args} --form output_path=output",
+  "description": "sample AnimeGAN",
+  "example_outputs": [
+    "https://studio213.us/gpu/ai/input/em.jpg"
+  ],
+  "black_icon": "https://cdn.mediamagic.dev/media/068ac6aa-491b-11ed-8fd6-fe5332939342.png",
+  "white_icon": "https://cdn.mediamagic.dev/media/10cedc6f-491b-11ed-8fd6-fe5332939342.png",
+  "color_icon": "https://cdn.mediamagic.dev/media/19b8ec56-491b-11ed-8fd6-fe5332939342.png",
+  "id": "bddb16f4-bd92-4093-b328-07233f241a30",
+  "name": "AnimeX",
+  "container": "ubuntu",
+  "machine_type": "container3",
+  "tags": [
+    "image"
+  ]
+}
