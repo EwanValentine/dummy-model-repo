@@ -1,5 +1,4 @@
-id: "bddb16f4-bd92-4093-b328-07233f241a30"
-name: "AnimeX"
+name: "test-model"
 docfile: "docs.md"
 container: "ubuntu" # Eventually we should just infer this from a given Docker image if exists, and make this field optional
 description: "test"
