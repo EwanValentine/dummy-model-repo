@@ -15,7 +15,6 @@ black_icon: "https://cdn.mediamagic.dev/media/068ac6aa-491b-11ed-8fd6-fe53329393
 white_icon: "https://cdn.mediamagic.dev/media/10cedc6f-491b-11ed-8fd6-fe5332939342.png"
 color_icon: "https://cdn.mediamagic.dev/media/19b8ec56-491b-11ed-8fd6-fe5332939342.png"
 repository: "https://github.com/pingponglabs-backend/mm-models"
-listen_port: 8080
 examples:
   - title: "Usage One"
     description: "Does a thing"
@@ -28,3 +27,18 @@ examples:
         value: "b.png"
     outputs:
       - "output_a.png"
+listen_port: 8061
+utilization: 90
+vram_required_startup: 1073741824
+vram_required_runtime: 1073741824
+memory: ""
+shm_memory: ""
+concurrent: false
+tool: "curl"
+expected_startup_time: 120
+ro_mounts:
+output_paths:
+scan_dir:
+cpu_only: false
+cm2: false
+is_popular: false
